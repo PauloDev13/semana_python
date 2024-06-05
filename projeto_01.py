@@ -17,7 +17,7 @@ try:
     # Define fonte e tamanho
     arq_pdf.set_font('Arial', '', 11)
     # Seta o template.png como background do arquivo PDF
-    arq_pdf.image('template.png')
+    arq_pdf.image('template.png', 0, 0)
 
     # Define coordenadas X, Y onde será impresso dos valores digitados"
     arq_pdf.text(115, 145, str_projeto)
